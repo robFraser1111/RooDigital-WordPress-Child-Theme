@@ -28,11 +28,11 @@
                                 <?php the_title(); ?>
                             </a>
                         </h5>
-                        <p class="text-muted">
-                            Article by <?php echo get_the_author(); ?>
+                        <!-- <p class="text-muted">
+                            Article by <?php // echo get_the_author(); ?>
                             <br>
-                            Published <?php echo get_the_date( 'd M, Y' ); ?>
-                        </p>
+                            Published <?php // echo get_the_date( 'd M, Y' ); ?>
+                        </p> -->
                     </div>
 
                 </div>

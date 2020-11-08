@@ -41,16 +41,16 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 								<div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4">
 									<div class="card h-100">
-										<a href="<?php echo get_post_permalink() ?>">
+										<a href="<?php echo get_permalink() ?>">
 											<?php the_post_thumbnail( array(600, 500), ['class' => 'card-img-top']); ?>
 										</a>
 											<div class="card-body">
-												<a href="<?php echo get_post_permalink() ?>">
+												<a href="<?php echo get_permalink() ?>">
 													<h2 class="card-title h5"><?php the_title(); ?></h2>
 												</a>
-												<p class="card-text text-muted">Article by <?php echo get_the_author(); ?>
+												<!-- <p class="card-text text-muted">Article by <?php // echo get_the_author(); ?>
 												<br>
-												Published <?php echo get_the_date( 'd M, Y' ); ?></p>
+												Published <?php // echo get_the_date( 'd M, Y' ); ?></p> -->
 											</div>
 										</div>
 									</a>

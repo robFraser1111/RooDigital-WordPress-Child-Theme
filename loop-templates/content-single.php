@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 		<?php the_title( '<h1 class="entry-title"><strong>', '</strong></h1>' ); ?>
 
-		<h5 class="text-muted">Article by <?php echo get_the_author(); ?><br>Published <?php echo get_the_date( 'd M, Y' ); ?></h5>
+		<!-- <h5 class="text-muted">Article by <?php // echo get_the_author(); ?><br>Published <?php // echo get_the_date( 'd M, Y' ); ?></h5> -->
 
 		<?php get_template_part( 'template-parts/social-share' ); ?>
 
