@@ -25,9 +25,6 @@
                         <a href="<?php echo get_post_permalink() ?>">
                             <h2 class="card-title h5"><?php the_title(); ?></h2>
                         </a>
-                        <p class="card-text text-muted">Article by <?php echo get_the_author(); ?>
-                            <br>
-                            Published <?php echo get_the_date('d M, Y'); ?></p>
                     </div>
                 </div>
                 </a>
