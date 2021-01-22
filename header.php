@@ -159,7 +159,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			</h1>
 			<h2 class="text-center"><?php echo get_bloginfo( 'description' ); ?></h2>
 			<div class="text-center hero-btn">
-				<a class="shadow btn btn-gold btn-lg m-4" href="#offer" role="button"><b>What we offer</b></a>
+				<a class="shadow btn btn-gold btn-lg m-4" href="#contact" role="button"><b>Get in touch</b></a>
 				<br>
 				<!-- <h3><small>Find out exactly what your trade needs to grow</small></h3>-->
 			</div>
